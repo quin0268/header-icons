@@ -5,3 +5,19 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  color: #d05c2e;
+}
+
+li {
+  border: 3px solid #a63f38;
+}
