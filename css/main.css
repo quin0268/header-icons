@@ -1,23 +1,48 @@
 html {
   box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-header {
-
+img {
+  width: 40px;
 }
 
-.links {
+header {
+  font-size: 2rem;
   display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  background-color: #d05c2e;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  color: #d05c2e;
+
+  flex-grow: 1;
+  align-content: center;
 }
 
 li {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.125rem;
+  padding: .5em;
+  background-color: #d05c2e;
   border: 3px solid #a63f38;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
